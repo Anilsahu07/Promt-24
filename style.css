@@ -129,3 +129,22 @@ nav{
     background-color: black;
     color: white;
 }
+
+@media (max-width:550px){
+    .left2{
+        display: none;
+    }
+
+    .left-nav >h1{
+        font-size: 5vw;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head{
+        text-align: center;
+    }
+}
